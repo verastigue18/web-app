@@ -1,0 +1,176 @@
+:root {
+    --blue: #003049;
+    --red: #D62828;
+    --orange: #F77F00;
+    --yellow: #FCBF49;
+    --miniWhite: #EAE2B7;
+    --white: #FFFFFF;
+    --black: #000000;
+    --green: #049624;
+    --gray: #808080;
+    
+    --interFont: 'Inter', sans-serif;
+    --poppinsFont: 'Poppins', sans-serif;
+}
+
+
+.modal-adding .wrapper-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 44px;
+
+    height: 739px;
+    width: 850px;
+    background-color: var(--white);
+    padding: 28px 24px;
+
+    z-index: 1000;
+}
+
+
+
+.modal-adding .header {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.modal-adding .inner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.modal-adding .left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.modal-adding .left-content .top-form {
+    display: flex;
+    gap: 115px;
+}
+
+.modal-adding .left-content .bottom-group {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.modal-adding .bottom-group .new-customer-feild {
+    display: none;
+}
+
+.modal-adding .bottom-group .new-customer-feild .input-feilds {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.modal-adding .bottom-group .form-bg {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: rgba(239, 241, 249, 0.60);
+    color: #ABAFB1;
+    border: none;
+}
+
+.modal-adding .bottom-group .small-list {
+    width: 170px;
+}
+
+.modal-adding .bottom-group .form-bg .form-list{
+    width: 100%;
+    color: #ABAFB1;
+    border: none;
+    background-color: transparent;
+}
+
+.modal-adding .bottom-group .form-bg #dropdownMenu option {
+    width: 100%;
+}
+
+.modal-adding .bottom-group .form-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-adding .right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 79px;
+}
+
+.modal-adding .right-content .top-content {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.modal-adding .right-content .top-content .searchbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 375px;
+    height: 45px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--black-1, #CFD3D4);
+}
+
+.modal-adding .searchbar .icon {
+    height: 20px;
+    width: 20px;
+    background-color: var(--gray);
+}
+
+.modal-adding .searchbar .search-input {
+    width: 100%;
+    border: none;
+}
+
+.modal-adding .right-content .bottom-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+
+.modal-adding .right-content .bottom-content .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    background-color: #F4F5FA;
+}
+
+.modal-adding .buttons {
+    display: flex;
+    gap: 40px;
+
+}
+
+.modal-adding .buttons .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 17px 16px;
+    border-radius: 12px;
+    margin-top: 75px;
+}

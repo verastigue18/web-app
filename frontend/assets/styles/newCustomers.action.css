@@ -1,0 +1,61 @@
+:root {
+    --blue: #003049;
+    --red: #D62828;
+    --orange: #F77F00;
+    --yellow: #FCBF49;
+    --miniWhite: #EAE2B7;
+    --white: #FFFFFF;
+    --black: #000000;
+    --green: #049624;
+    --gray: #808080;
+    
+    --interFont: 'Inter', sans-serif;
+    --poppinsFont: 'Poppins', sans-serif;
+}
+
+.modal-newCustomer {
+    display: none;
+    z-index: 100;
+}
+
+
+.modal-newCustomer .wrapper-block {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    background-color: var(--white);
+    padding: 28px 24px;
+    width: 423px;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.modal-newCustomer .wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-newCustomer .newCustomer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.modal-newCustomer input, .modal-newCustomer select {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: var(--input-default-background, rgba(239, 241, 249, 0.60));
+}
+
+.modal-newCustomer .buttons-newCustomer {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.modal-newCustomer .buttons-newCustomer button {
+    width: 100%;
+    padding: 17px 16px;
+}

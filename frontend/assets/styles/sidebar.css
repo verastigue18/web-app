@@ -1,0 +1,81 @@
+:root {
+    --blue: #003049;
+    --red: #D62828;
+    --orange: #F77F00;
+    --yellow: #FCBF49;
+    --miniWhite: #EAE2B7;
+    --white: #FFFFFF;
+    --black: #000000;
+    --green: #049624;
+    --gray: #808080;
+    
+    --interFont: 'Inter', sans-serif;
+    --poppinsFont: 'Poppins', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+.sidebar {
+    position: absolute;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 305px;
+    height: 100%;
+    background-color: var(--blue);
+    padding: 36px;
+    gap: 86px;
+}
+
+.sidebar .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.sidebar .logo .logo-icon {
+    height: 52px;
+    width: 52px;
+    background-color: var(--gray);
+}
+
+.sidebar .logo .logo-name {
+    font-size: 24px;
+    color: var(--white);
+}
+
+.sidebar .nav-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .nav-menu .top-menu, .bottom-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.sidebar .nav-menu .bottom-menu {
+    position: absolute;
+    bottom: 4%;
+}
+
+.link {
+    display: flex;
+    width: 233px;
+    padding: 16px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.link:hover, .link.active {
+    background-color: var(--orange);
+}
+

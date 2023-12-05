@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+
+:root {
+    --blue: #003049;
+    --red: #D62828;
+    --orange: #F77F00;
+    --yellow: #FCBF49;
+    --miniWhite: #EAE2B7;
+    --white: #FFFFFF;
+    --black: #000000;
+    --green: #049624;
+    --gray: #808080;
+    
+    --interFont: 'Inter', sans-serif;
+    --poppinsFont: 'Poppins', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--interFont);
+}
+
+#top-page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--miniWhite);
+
+    height: 1024px;
+    width: 1440px;
+}
+
+a {
+    z-index: 100;
+    text-decoration: none;
+    color: var(--white);
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    padding: 17px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/* BUTTONS */
+.btn-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    background-color: rgba(247, 127, 0, 0.16);
+    border-radius: 8px;
+}
+
+.btn-close:hover {
+    color: var(--orange);
+}
+
+.btn-outline {
+    border: 2px solid var(--orange);
+    color: var(--orange);
+    background-color: transparent ;
+}
+
+.btn-background {
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+}
+
+.btn-background:hover {
+    background-color:  rgba(247, 127, 0, 0.8);
+}
+
+.btn-outline:hover {
+    border: 2px solid rgba(247, 127, 0, 0.8);
+    color: rgba(247, 127, 0, 0.8);
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(163, 163, 163, 0.20);
+    backdrop-filter: blur(2px);
+    z-index: 100;
+}
+
+.container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: calc(100% - 100px);
+    width: calc(100% - 305px);
+    padding: 24px;
+}
+
